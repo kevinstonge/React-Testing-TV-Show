@@ -27,7 +27,7 @@ export default function App() {
   };
 
   if (!show) {
-    return <h2>Fetching data...</h2>;
+    return <h2 data-testid="loadingMessage">Fetching data...</h2>;
   }
 
   return (
